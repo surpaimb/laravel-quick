@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelQuick\Services;
+namespace Surpaimb\LaravelQuick\Services;
 
 use Carbon\Carbon;
 use DateInterval;

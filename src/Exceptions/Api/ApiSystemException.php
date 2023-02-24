@@ -6,9 +6,9 @@
  * Time: 11:19 AM
  */
 
-namespace Yxx\LaravelQuick\Exceptions\Api;
+namespace Surpaimb\LaravelQuick\Exceptions\Api;
 
-use Yxx\LaravelQuick\Exceptions\ApiException;
+use Surpaimb\LaravelQuick\Exceptions\ApiException;
 
 class ApiSystemException extends ApiException
 {

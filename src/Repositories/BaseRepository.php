@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelQuick\Repositories;
+namespace Surpaimb\LaravelQuick\Repositories;
 
 class BaseRepository
 {

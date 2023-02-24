@@ -5,7 +5,7 @@
  * Date: 2020/7/23
  * Time: 12:40 PM
  */
-namespace Yxx\LaravelQuick\Console;
+namespace Surpaimb\LaravelQuick\Console;
 
 use Illuminate\Console\GeneratorCommand;
 

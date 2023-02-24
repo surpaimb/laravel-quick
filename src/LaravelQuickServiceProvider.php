@@ -6,13 +6,13 @@
  * Time: 9:17 AM
  */
 
-namespace Yxx\LaravelQuick;
+namespace Surpaimb\LaravelQuick;
 
 use Illuminate\Support\ServiceProvider;
-use Yxx\LaravelQuick\Console\CreateRepositoryCommand;
-use Yxx\LaravelQuick\Console\CreateServiceCommand;
-use Yxx\LaravelQuick\Console\CreateTraitCommand;
-use Yxx\LaravelQuick\Services\CacheService;
+use Surpaimb\LaravelQuick\Console\CreateRepositoryCommand;
+use Surpaimb\LaravelQuick\Console\CreateServiceCommand;
+use Surpaimb\LaravelQuick\Console\CreateTraitCommand;
+use Surpaimb\LaravelQuick\Services\CacheService;
 
 class LaravelQuickServiceProvider extends ServiceProvider
 {

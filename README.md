@@ -6,14 +6,14 @@
 - `composer require yxx/laravel-quick`
 - 生成翻译好的中文包命令 
 
-    **linux 和 mac** `php artisan vendor:publish--provider="Yxx\\LaravelQuick\\LaravelQuickServiceProvider"`
-    **windows** `php artisan vendor:publish --provider="Yxx\LaravelQuick\LaravelQuickServiceProvider"`
+    **linux 和 mac** `php artisan vendor:publish--provider="Surpaimb\\LaravelQuick\\LaravelQuickServiceProvider"`
+    **windows** `php artisan vendor:publish --provider="Surpaimb\LaravelQuick\LaravelQuickServiceProvider"`
 ## 怎么使用
 ```$xslt
 // api 返回状态码
 
 // 异常使用例子
-use Yxx\LaravelQuick\Exceptions\Api\ApiNotFoundException;
+use Surpaimb\LaravelQuick\Exceptions\Api\ApiNotFoundException;
 // 请求参数错误
 throw new ApiRequestException();
 // 404 未找到
@@ -27,7 +27,7 @@ throw new ApiUnAuthException()
 //自定义错误继承Yxx\LaravelQuick\Exceptions自己参照对应代码自定义
 
 // api接口使用
-use Yxx\LaravelQuick\Traits\JsonResponseTrait
+use Surpaimb\LaravelQuick\Traits\JsonResponseTrait
 
 // 成功
 return $this->success("消息",['name'=>"张三"]);
@@ -37,7 +37,7 @@ return $this->error("错误");
 return $this->apiResponse(Response::HTTP_BAD_GATEWAY,"502错误");
 
 // 缓存的使用（封装了redis的一些方法）
-use Yxx\LaravelQuick\Facades\CacheClient;
+use Surpaimb\LaravelQuick\Facades\CacheClient;
 
 CacheClient::hSet("test","1","张三");
 CacheClient::hGet("test","1");

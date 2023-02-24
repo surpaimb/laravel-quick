@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelQuick\Services;
+namespace Surpaimb\LaravelQuick\Services;
 
 use Illuminate\Support\Traits\Macroable;
 

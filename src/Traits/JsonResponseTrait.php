@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelQuick\Traits;
+namespace Surpaimb\LaravelQuick\Traits;
 
 
 use Illuminate\Support\Facades\Response;
